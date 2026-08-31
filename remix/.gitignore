@@ -1,5 +1,1 @@
-# Source and rendered audio stay out of the repo (copyrighted recording,
-# personal practice only — scripts are reproducible from your own file).
-work/
-stems/
-out/
+*
