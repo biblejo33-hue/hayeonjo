@@ -1,0 +1,42 @@
+﻿type,item,result,judgement
+BBox,Seat Cushion ↔ Backrest,겹침 27×450×138,형상 간섭 정밀검사 필요
+BBox,Seat Cushion ↔ Side Body,겹침 450×450×51,형상 간섭 정밀검사 필요
+BBox,Seat Cushion ↔ Rehabilitation Mechanism,겹침 227×180×26,형상 간섭 정밀검사 필요
+BBox,Seat Cushion ↔ Human Reference,겹침 450×450×138,쿠션 압축량 만큼 의도된 겹침(착석)
+BBox,Backrest ↔ Headrest,겹침 118×296×32,형상 간섭 정밀검사 필요
+BBox,Backrest ↔ Left Armrest,겹침 44×6×340,형상 간섭 정밀검사 필요
+BBox,Backrest ↔ Right Armrest,겹침 44×6×423,형상 간섭 정밀검사 필요
+BBox,Backrest ↔ Side Body,겹침 114×492×53,형상 간섭 정밀검사 필요
+BBox,Backrest ↔ Human Reference,겹침 124×492×631,등 접촉(의도)
+BBox,Headrest ↔ Human Reference,겹침 15×296×350,후두부 접촉(의도)
+BBox,Left Armrest ↔ Side Body,겹침 432×80×35,형상 간섭 정밀검사 필요
+BBox,Left Armrest ↔ Human Reference,겹침 432×68×340,팔꿈치 지지(의도)
+BBox,Right Armrest ↔ Side Body,겹침 442×80×35,형상 간섭 정밀검사 필요
+BBox,Right Armrest ↔ Human Reference,겹침 442×68×423,팔꿈치 지지(의도)
+BBox,Side Body ↔ Lower Chassis,겹침 549×486×126,형상 간섭 정밀검사 필요
+BBox,Side Body ↔ Rear Wheels,겹침 146×636×80,형상 간섭 정밀검사 필요
+BBox,Side Body ↔ Front Casters,겹침 193×502×20,형상 간섭 정밀검사 필요
+BBox,Side Body ↔ Rehabilitation Mechanism,겹침 240×180×186,형상 간섭 정밀검사 필요
+BBox,Side Body ↔ Human Reference,겹침 549×616×211,형상 간섭 정밀검사 필요
+BBox,Lower Chassis ↔ Rear Wheels,겹침 300×486×250,형상 간섭 정밀검사 필요
+BBox,Lower Chassis ↔ Front Casters,겹침 195×486×190,형상 간섭 정밀검사 필요
+BBox,Lower Chassis ↔ Rehabilitation Mechanism,겹침 242×180×296,형상 간섭 정밀검사 필요
+BBox,Lower Chassis ↔ Human Reference,겹침 562×486×271,형상 간섭 정밀검사 필요
+BBox,Rear Wheels ↔ Human Reference,겹침 157×616×225,형상 간섭 정밀검사 필요
+BBox,Front Casters ↔ Rehabilitation Mechanism,겹침 200×180×210,형상 간섭 정밀검사 필요
+BBox,Front Casters ↔ Human Reference,겹침 200×502×165,형상 간섭 정밀검사 필요
+BBox,Rehabilitation Mechanism ↔ Left Foot Platform,겹침 106×72×82,형상 간섭 정밀검사 필요
+BBox,Rehabilitation Mechanism ↔ Right Foot Platform,겹침 106×72×82,형상 간섭 정밀검사 필요
+BBox,Rehabilitation Mechanism ↔ Human Reference,겹침 454×180×331,형상 간섭 정밀검사 필요
+BBox,Left Foot Platform ↔ Human Reference,겹침 266×154×60,발 접촉(의도)
+BBox,Right Foot Platform ↔ Human Reference,겹침 266×154×60,발 접촉(의도)
+Clearance,발판 뒤꿈치지지대 ↔ 캐스터 회전궤적(평면),17 mm,OK
+Clearance,발판 최저 지상고(기본자세),75 mm,OK
+Clearance,무릎 뒤 여유 P50 / P5,60 / 35 mm,OK
+Width,전폭,640 mm,OK
+Rehab,"기본자세: 무릎 107°, 허벅지 -2°",정강이↔Rehabilitation Mechanism/spine housing 최소 48 mm (부품별 AABB 근사),OK
+Rehab,"슬라이딩 신전 끝: 무릎 151°, 허벅지 -3°",정강이↔Rehabilitation Mechanism/front riser 최소 112 mm (부품별 AABB 근사),OK
+Rehab,"페달 0°: 무릎 112°, 허벅지 9°",정강이↔Rehabilitation Mechanism/front riser 최소 142 mm (부품별 AABB 근사),OK
+Rehab,"페달 90°: 무릎 85°, 허벅지 27°",정강이↔Rehabilitation Mechanism/front riser 최소 131 mm (부품별 AABB 근사),OK
+Rehab,"페달 180°: 무릎 78°, 허벅지 18°",정강이↔Rehabilitation Mechanism/front riser 최소 63 mm (부품별 AABB 근사),OK
+Rehab,"페달 270°: 무릎 104°, 허벅지 2°",정강이↔Rehabilitation Mechanism/spine housing 최소 56 mm (부품별 AABB 근사),OK
